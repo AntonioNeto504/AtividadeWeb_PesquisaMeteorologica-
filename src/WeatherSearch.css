@@ -1,0 +1,99 @@
+/* Estilo geral do container */
+.container {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 30px;
+  background-color: #f4f7fc;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilo do título */
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Estilo do campo de busca */
+.search-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  padding: 12px 18px;
+  font-size: 16px;
+  width: 250px;
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  margin-right: 10px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus {
+  border-color: #007bff;
+}
+
+.button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Estilo da mensagem de erro */
+.error {
+  color: red;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+/* Estilo da caixa de resultado */
+.result {
+  margin-top: 30px;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  max-width: 350px;
+  box-sizing: border-box;
+}
+
+/* Título do resultado */
+.result h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Estilo das informações climáticas */
+.result p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* Ícones para as condições climáticas */
+.result p i {
+  font-size: 1.4rem;
+  margin-right: 8px;
+}

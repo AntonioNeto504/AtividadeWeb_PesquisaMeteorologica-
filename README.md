@@ -27,3 +27,4 @@ Este é um projeto de React para buscar e exibir informações sobre o clima de 
    ```bash
    git clone https://github.com/seu-usuario/weather-search.git
    cd weather-search
+   nmp start
